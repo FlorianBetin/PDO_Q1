@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 65ch;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    box-shadow: 0 0 15px #ccc;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    box-shadow: 0 0 15px #ccc;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+input,
+select {
+    width: 100%;
+    padding: .5rem;
+}
+
+.alert {
+    padding: .5rem;
+    color: white;
+    background-color: crimson;
+}
+
+.text-alert {
+    color: crimson;
+}
+
+.thanks {
+ color: green;
+}
